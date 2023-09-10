@@ -1,0 +1,24 @@
+#tarjeta-hobby{
+  width: 800px;
+  text-align: center;
+}
+
+#icono-hobby{
+  font-size: xx-large;
+}
+
+.titulo-tarjeta-hobby{
+  padding: 10px;
+  color: aliceblue;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+}
+
+ /* RESPONSIVE DESIGN */
+ @media (max-width:1160px) {
+  #tarjeta-hobby{
+     width: fit-content;
+     height: fit-content;
+  }
+}
