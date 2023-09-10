@@ -1,0 +1,31 @@
+
+.main-section{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(36, 39, 38);
+  place-content: center;
+}
+
+.titulo-section{
+  padding: 50px;
+  color: aliceblue;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-large;
+  z-index: 5;
+
+}
+
+.contenedor-tarjetas{
+  display: flex;
+  place-content: center;
+}
+
+
+ /* RESPONSIVE DESIGN */
+ @media (max-width:1160px) {
+
+  .contenedor-tarjetas{
+     flex-direction: column;
+  }
+}

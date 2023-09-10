@@ -1,0 +1,75 @@
+<main class="main-section">
+  <!-- SECCIÓN HOME-->
+  <app-main-card></app-main-card>
+
+  <!-- SECCIÓN ACERCA DE-->
+  <section class="about" id="about">
+    <h1 class="titulo-section">Acerca de mí:</h1>
+
+    <section class="contenedor-tarjetas">
+      <app-about-card *ngFor="let tarjeta of tarjetasAbout"
+        [iconoTarjeta]="tarjeta.icono"
+        [tituloTarjeta]="tarjeta.titulo"
+        [descripcionTarjeta]="tarjeta.descripcion">
+      </app-about-card>
+    </section>
+
+  </section>
+
+  <!-- SECCIÓN PROYECTOS-->
+  <section class="projects" id="projects">
+    <h1 class="titulo-section">Proyectos:</h1>
+
+    <div class="contenedor-tarjetas" id="tarjetas-proyectos">
+      <app-project-card *ngFor="let tarjeta of tarjetasProject"
+        [enlaceProyecto]="tarjeta.enlace"
+        [iconoTarjeta]="tarjeta.icono"
+        [tituloTarjeta]="tarjeta.titulo">
+      </app-project-card>
+    </div>
+
+  </section>
+
+  <!-- SECCIÓN HABILIDADES-->
+  <section class="skills" id="skills">
+    <h1 class="titulo-section">Habilidades:</h1>
+
+    <div class="contenedor-tarjetas">
+
+      <!-- HABILIDADES FRONTEND -->
+      <app-frontend-card></app-frontend-card>
+
+
+      <!-- HABILIDADES BACKEND -->
+      <app-backend-card></app-backend-card>
+
+
+      <!-- HABILIDADES BASES DE DATOS -->
+      <app-databases-card></app-databases-card>
+
+
+      <!-- HABILIDADES MOVILES -->
+      <app-moviles-card></app-moviles-card>
+
+
+      <!-- HABILIDADES INTEGRACIÓN PROYECTOS -->
+      <app-integracion-card></app-integracion-card>
+
+    </div>
+  </section>
+
+  <!-- SECCIÓN HOBBIES-->
+  <section class="hobbies" id="hobbies">
+    <h1 class="titulo-section">Hobbies:</h1>
+
+    <div class="contenedor-tarjetas" id="tarjetas-hobbies">
+      <app-hobby-card *ngFor="let hobby of tarjetasHobbies"></app-hobby-card>
+    </div>
+
+  </section>
+
+  <!-- SECCIÓN CONTACTO-->
+  <section class="contact">
+
+  </section>
+</main>
