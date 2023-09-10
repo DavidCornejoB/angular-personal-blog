@@ -70,32 +70,32 @@ export class MainComponent {
 
   tarjetasHobbies: hobbyCard[] = [
     {
-      icono: '',
+      icono: '../../../assets/icons/icon-musica.png',
       titulo: 'Música',
       descripcion: `Preferencias en género, estilo, artistas, álbumes, etc. Instrumentos que toco; géneros / estilos que toco, etc.`
     },
     {
-      icono: '',
+      icono: '../../../assets/icons/icon-dibujo.png',
       titulo: 'Dibujo / Pintura',
       descripcion: `Artistas favoritos, técnicas / estilos de pintura favoritos, etc. Técnicas / estilos de pintura utilizados.`
     },
     {
-      icono: '',
+      icono: '../../../assets/icons/icon-lectura.png',
       titulo: 'Lectura',
       descripcion: `Preferencias en género, escritores favoritos, libros favoritos, etc.`
     },
     {
-      icono: '',
+      icono: '../../../assets/icons/icon-ejercicio.png',
       titulo: 'Deporte',
       descripcion: `Deportes que me gustan / Deportes que practico.`
     },
     {
-      icono: '',
+      icono: '../../../assets/icons/icon-videojuegos.png',
       titulo: 'Videojuegos',
       descripcion: `Videojuegos que me gustan, géneros / Videojuegos que juego.`
     },
     {
-      icono: '',
+      icono: '../../../assets/icons/icon-peliculas.png',
       titulo: 'Películas / Series',
       descripcion: `Mis preferencias en directores, géneros. Películas / Series favoritas`
     }

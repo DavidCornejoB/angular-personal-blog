@@ -63,7 +63,11 @@
     <h1 class="titulo-section">Hobbies:</h1>
 
     <div class="contenedor-tarjetas" id="tarjetas-hobbies">
-      <app-hobby-card *ngFor="let hobby of tarjetasHobbies"></app-hobby-card>
+      <app-hobby-card *ngFor="let hobby of tarjetasHobbies"
+      [imagenHobby]="hobby.icono"
+      [tituloHobby]="hobby.titulo"
+      [contenidoHobby]="hobby.descripcion"
+      ></app-hobby-card>
     </div>
 
   </section>

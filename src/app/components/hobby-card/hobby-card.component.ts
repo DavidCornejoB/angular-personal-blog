@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-hobby-card',
@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HobbyCardComponent {
 
+  @Input() imagenHobby: string = '';
+  @Input() tituloHobby: string = '';
+  @Input() contenidoHobby: string = '';
 }
