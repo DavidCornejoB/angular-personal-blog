@@ -1,0 +1,11 @@
+#tarjetas-proyectos{
+  display: grid;
+  grid-template-columns: repeat(2, 4fr);
+  grid-auto-rows: max-content;
+  margin: 20px;
+}
+
+#tarjeta-proyecto{
+  margin: 40px;
+  padding: 40px;
+}
