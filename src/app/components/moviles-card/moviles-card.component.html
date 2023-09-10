@@ -1,0 +1,8 @@
+<div class="tarjeta">
+  <h1 class="titulo-tarjeta" id="skills">Mobile Development</h1>
+  <div class="contenedor-iconos">
+    <div class="contenedor-iconos">
+      <app-icon-image *ngFor="let icon of getIconosMoviles()" [iconPath]="icon.url" [iconDesc]="icon.descripcion"></app-icon-image>
+    </div>
+  </div>
+</div>

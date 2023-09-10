@@ -1,0 +1,13 @@
+<div class="tarjeta">
+  <h1 class="titulo-tarjeta" id="skills">Backend</h1>
+
+  <h2 class="titulo-tarjeta">Lenguajes:</h2>
+  <div class="contenedor-iconos">
+    <app-icon-image *ngFor="let icon of getIconosLenguajes()" [iconPath]="icon.url" [iconDesc]="icon.descripcion"></app-icon-image>
+  </div>
+
+  <h2 class="titulo-tarjeta">Frameworks:</h2>
+  <div class="contenedor-iconos">
+    <app-icon-image *ngFor="let icon of getIconosFrameworks()" [iconPath]="icon.url" [iconDesc]="icon.descripcion"></app-icon-image>
+  </div>
+</div>
