@@ -6,10 +6,31 @@
 }
 
 #tarjeta-proyecto{
-  margin: 40px;
-  padding: 40px;
+  margin: 18px;
+  padding: 18px;
 }
 
-#tarjeta-proyecto h1{
-  font-family: 'Courier New', Courier, monospace;
+#tarjeta-proyecto h2{
+  text-align: center;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+#tarjeta-proyecto a{
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+.imagenProyecto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagenProyecto img {
+  width: 180px;
+  height: 120px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.377);
+
 }

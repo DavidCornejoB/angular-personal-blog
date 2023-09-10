@@ -7,7 +7,7 @@
     <h1 class="titulo-section">Acerca de mí:</h1>
 
     <section class="contenedor-tarjetas">
-      <app-about-card *ngFor="let tarjeta of tarjetasAbout"
+      <app-about-card *ngFor="let tarjeta of getTarjetasAbout()"
         [iconoTarjeta]="tarjeta.icono"
         [tituloTarjeta]="tarjeta.titulo"
         [descripcionTarjeta]="tarjeta.descripcion">
@@ -21,7 +21,7 @@
     <h1 class="titulo-section">Proyectos:</h1>
 
     <div class="contenedor-tarjetas" id="tarjetas-proyectos">
-      <app-project-card *ngFor="let tarjeta of tarjetasProject"
+      <app-project-card *ngFor="let tarjeta of getTarjetasProject()"
         [enlaceProyecto]="tarjeta.enlace"
         [iconoTarjeta]="tarjeta.icono"
         [tituloTarjeta]="tarjeta.titulo">
@@ -63,7 +63,7 @@
     <h1 class="titulo-section">Hobbies:</h1>
 
     <div class="contenedor-tarjetas" id="tarjetas-hobbies">
-      <app-hobby-card *ngFor="let hobby of tarjetasHobbies"
+      <app-hobby-card *ngFor="let hobby of getTarjetasHobbies()"
       [imagenHobby]="hobby.icono"
       [tituloHobby]="hobby.titulo"
       [contenidoHobby]="hobby.descripcion"

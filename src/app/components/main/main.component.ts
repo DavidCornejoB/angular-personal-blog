@@ -10,11 +10,11 @@ import { hobbyCard } from 'src/app/models/hobby-card.model';
 })
 export class MainComponent {
 
-  tarjetasAbout: aboutCard[] = [
+  private tarjetasAbout: aboutCard[] = [
     {
       icono: 'code',
       titulo: 'Desarrollador de Software',
-      descripcion: `Actualmente, trabajo como desarrollador de software. Los lenguajes que más utilizo son Python, Java, Javascript, entre otros.
+      descripcion: `Actualmente, trabajo como desarrollador de software, haciendo uso de GeneXus 17. Los lenguajes que más utilizo son Python, Java, Javascript, entre otros.
       Mis Framework's de desarrollo favoritos son Angular, Ionic, Node.js, etc`
     },
 
@@ -29,46 +29,46 @@ export class MainComponent {
     {
       icono: 'music_note',
       titulo: 'Músico / Compositor',
-      descripcion: `Desde pequeño, he sido un ferviente amante de la m&uacute;sica. A los dos tres años ya estaba escuchando los cd's de m&uacute;sica cl&aacute;sica
-      de mis padres. A los diez años comenc&eacute; a tocar la guitarra de manera autodidacta, y actualmente toco tambi&eacute;n la bater&iacute;a, el bajo y un poco el piano.
-      Formo parte de Fl&eacute;bil y de vez en cuando compongo y produzco temas de Ambient.`
+      descripcion: `Desde pequeño, he sido un ferviente amante de la música. A los dos tres años ya estaba escuchando los cd's de música clásica
+      de mis padres. A los diez años comencé a tocar la guitarra de manera autodidacta, y actualmente toco también la batería, el bajo y un poco de piano.
+      Formo parte de Flébil y, de vez en cuando, compongo y produzco temas de Ambient.`
     },
 
     {
       icono: 'insert_photo',
       titulo: 'Dibujante / Pintor',
       descripcion: `Otra de mis aficiones de infancia es dibujar.
-      Hoy en d&iacute;a, disfruto del dibujo y la pintura, y trato de practicar todos los d&iacute;as y aprender nuevas t&eacute;cnicas.`
+      Hoy en día, disfruto del dibujo y la pintura, y trato de practicar todos los días y aprender nuevas técnicas.`
     }
   ];
 
-  tarjetasProject: projectCard[] = [
+  private tarjetasProject: projectCard[] = [
     {
-      icono: 'https://unpkg.com/css.gg@2.0.0/icons/css/code-slash.css',
+      icono: '../../../assets/images/youtube-landing.PNG',
       titulo: 'Landing Page para consumo de API de Youtube',
       enlace: 'https://davidcornejob.github.io/async-landing/'
     },
 
     {
-      icono: 'https://unpkg.com/css.gg@2.0.0/icons/css/laptop.css',
+      icono: '../../../assets/images/spotify-landing.PNG',
       titulo: 'Landing Page para consumo de API de Spotify',
       enlace: 'https://davidcornejob.github.io/landing-spotify-async/'
     },
 
     {
-      icono: 'https://unpkg.com/css.gg@2.0.0/icons/css/music.css',
-      titulo: 'Proyecto C',
-      enlace: ''
+      icono: '../../../assets/images/ionic-page.PNG',
+      titulo: 'Plataforma de Realidad Aumentada, Gualaceo. Ionic - Unity',
+      enlace: 'https://gualaceoar.web.app/login'
     },
 
     {
-      icono: 'https://unpkg.com/css.gg@2.0.0/icons/css/pen.css',
-      titulo: 'Proyecto D',
+      icono: '',
+      titulo: 'Proyecto pendiente...',
       enlace: ''
     }
   ]
 
-  tarjetasHobbies: hobbyCard[] = [
+  private tarjetasHobbies: hobbyCard[] = [
     {
       icono: '../../../assets/icons/icon-musica.png',
       titulo: 'Música',
@@ -100,5 +100,17 @@ export class MainComponent {
       descripcion: `Mis preferencias en directores, géneros. Películas / Series favoritas`
     }
   ]
+
+  getTarjetasAbout(){
+    return this.tarjetasAbout;
+  }
+
+  getTarjetasProject(){
+    return this.tarjetasProject;
+  }
+
+  getTarjetasHobbies(){
+    return this.tarjetasHobbies;
+  }
 
 }
