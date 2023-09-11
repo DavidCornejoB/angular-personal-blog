@@ -46,25 +46,32 @@ export class MainComponent {
     {
       icono: '../../../assets/images/youtube-landing.PNG',
       titulo: 'Landing Page para consumo de API de Youtube',
-      enlace: 'https://davidcornejob.github.io/async-landing/'
+      enlace: 'https://davidcornejob.github.io/async-landing/',
+      descripcion: 'HTML5, CSS3, JavaScript, Node.js'
     },
 
     {
       icono: '../../../assets/images/spotify-landing.PNG',
       titulo: 'Landing Page para consumo de API de Spotify',
-      enlace: 'https://davidcornejob.github.io/landing-spotify-async/'
+      enlace: 'https://davidcornejob.github.io/landing-spotify-async/',
+      descripcion: 'HTML5, CSS3, JavaScript, Node.js'
+
     },
 
     {
       icono: '../../../assets/images/ionic-page.PNG',
       titulo: 'Plataforma de Realidad Aumentada, Gualaceo. Ionic - Unity',
-      enlace: 'https://gualaceoar.web.app/login'
+      enlace: 'https://gualaceoar.web.app/login',
+      descripcion: 'HTML5, CSS3, Ionic, Unity, Firebase'
+
     },
 
     {
       icono: '',
       titulo: 'Proyecto pendiente...',
-      enlace: ''
+      enlace: '',
+      descripcion: ''
+
     }
   ]
 

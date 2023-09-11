@@ -10,5 +10,7 @@ export class ProjectCardComponent {
   @Input() iconoTarjeta: string = '';
   @Input() tituloTarjeta: string = '';
   @Input() enlaceProyecto: string = '';
+  @Input() descripcionTarjeta: string = '';
+
 
 }

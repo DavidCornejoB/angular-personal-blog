@@ -20,6 +20,13 @@
   place-content: center;
 }
 
+#tarjetas-proyectos{
+  display: grid;
+  grid-template-columns: repeat(2, 4fr);
+  grid-auto-rows: max-content;
+  margin: 20px;
+}
+
 
  /* RESPONSIVE DESIGN */
  @media (max-width:1160px) {
@@ -27,4 +34,9 @@
   .contenedor-tarjetas{
      flex-direction: column;
   }
+
+  #tarjetas-proyectos{
+    display: flex;
+    flex-direction: column;
+ }
 }
