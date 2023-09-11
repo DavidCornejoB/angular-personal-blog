@@ -48,6 +48,10 @@ export class HabilidadesService {
     {
       url: '../../../assets/icons/icon-nodejs.png',
       descripcion: 'Node.js'
+    },
+    {
+      url: '../../../assets/icons/icon-fastapi.png',
+      descripcion: 'FastApi Python'
     }
   ]
 
