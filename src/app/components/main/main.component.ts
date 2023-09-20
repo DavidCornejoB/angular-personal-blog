@@ -67,10 +67,10 @@ export class MainComponent {
     },
 
     {
-      icono: '',
-      titulo: 'Proyecto pendiente...',
-      enlace: '',
-      descripcion: ''
+      icono: '../../../assets/images/fastapi-page.PNG',
+      titulo: 'API de películas desarrollado en FastAPI + SQLite',
+      enlace: 'https://fastapi-movies-api.onrender.com',
+      descripcion: 'FastAPI, Python, SQLite, API REST'
 
     }
   ]
