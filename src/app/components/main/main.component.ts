@@ -55,7 +55,6 @@ export class MainComponent {
       titulo: 'Landing Page para consumo de API de Spotify',
       enlace: 'https://davidcornejob.github.io/landing-spotify-async/',
       descripcion: 'HTML5, CSS3, JavaScript, Node.js'
-
     },
 
     {
@@ -63,7 +62,6 @@ export class MainComponent {
       titulo: 'Plataforma de Realidad Aumentada, Gualaceo. Ionic - Unity',
       enlace: 'https://gualaceoar.web.app/login',
       descripcion: 'HTML5, CSS3, Ionic, Unity, Firebase'
-
     },
 
     {
@@ -71,7 +69,13 @@ export class MainComponent {
       titulo: 'API de películas desarrollado en FastAPI + SQLite',
       enlace: 'https://fastapi-movies-api.onrender.com',
       descripcion: 'FastAPI, Python, SQLite, API REST'
+    },
 
+    {
+      icono: '../../../assets/images/netflix-page.PNG',
+      titulo: 'Página creada con React para consumo de API de Netflix',
+      enlace: 'https://netflix-react-page.web.app',
+      descripcion: 'HTML5, CSS3, JavaScript, Node.js, React.js'
     }
   ]
 

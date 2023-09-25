@@ -25,6 +25,10 @@ export class HabilidadesService {
     {
       url: '../../../assets/icons/icon-angular.png',
       descripcion: 'Angular'
+    },
+    {
+      url: '../../../assets/icons/icon-react.png',
+      descripcion: 'React'
     }
   ]
 
