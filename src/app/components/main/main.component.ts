@@ -76,6 +76,20 @@ export class MainComponent {
       titulo: 'Página creada con React para consumo de API de Netflix',
       enlace: 'https://netflix-react-page.web.app',
       descripcion: 'HTML5, CSS3, JavaScript, Node.js, React.js'
+    },
+
+    {
+      icono: '../../../assets/images/todo-page.PNG',
+      titulo: 'Aplicación React para CRUD de Tareas almacenadas en Firestore',
+      enlace: 'https://lista-tareas-react-ea234.web.app',
+      descripcion: 'HTML5, CSS3, JavaScript, Node.js, React.js, Firebase, Firestore'
+    },
+
+    {
+      icono: '../../../assets/images/calculadora-page.PNG',
+      titulo: 'Calculadora creada con React',
+      enlace: 'https://lista-tareas-react-ea234.web.app',
+      descripcion: 'HTML5, CSS3, JavaScript, Node.js, React.js'
     }
   ]
 
