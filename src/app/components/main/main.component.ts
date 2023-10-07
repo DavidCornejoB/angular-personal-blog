@@ -88,7 +88,7 @@ export class MainComponent {
     {
       icono: '../../../assets/images/calculadora-page.PNG',
       titulo: 'Calculadora creada con React',
-      enlace: 'https://lista-tareas-react-ea234.web.app',
+      enlace: 'https://davidcornejob.github.io/Calculadora-React/',
       descripcion: 'HTML5, CSS3, JavaScript, Node.js, React.js'
     }
   ]
